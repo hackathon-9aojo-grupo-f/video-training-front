@@ -7,7 +7,7 @@
 ### `docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true react_hack:dev`
 
 <b>#Install</b>
-##1 - Clone esse repositório;
+##1 - Clone esse repositório;<br>
 ##2 - Instale as dependências: 'npm install'
 ##3 - Rode a aplicação 'npm install'
 
