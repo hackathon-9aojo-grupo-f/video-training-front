@@ -6,7 +6,7 @@
 ## Run Docker 
 ### `docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true react_hack:dev`
 
-#Install
+<b>#Install</b>
 ##1 - Clone esse repositório;
 ##2 - Instale as dependências: 'npm install'
 ##3 - Rode a aplicação 'npm install'
