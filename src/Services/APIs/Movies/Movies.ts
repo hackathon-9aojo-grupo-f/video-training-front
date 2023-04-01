@@ -1,10 +1,11 @@
-import api from "../Common/api";
+import api from '../Common/api';
 
-const getMovies = (search: string) => api.get("/movies?searchTerm=" + search);
-// const getPersonsPost = (data: any) => api.post("/persons/getPersons", data);
-const getMovieInfo = (prodID: string) => api.get("/movies/" + prodID);
+const getMovies = (search: string) => api.get('/movies?searchTerm=' + search);
+const getMovieInfo = (prodID: string) => api.get('/movies/' + prodID);
 
-export default {
+const moviesApi = {
   getMovies,
   getMovieInfo,
 };
+
+export default moviesApi;
